@@ -19,12 +19,12 @@ a {
 }
 
 header {
-    height: 100px;
+    height: 200px;
     width: 1500px;
 }
 
 .top {
-    height: 100px;
+    height: 200px;
     width: 1500px;
 }
 
@@ -33,40 +33,38 @@ header {
     height: 10px;
     width: 1000px;
 }
-.nav{
+.homenav{
     float: right;
     margin-top: 10px;
     margin-right: 10px;
 }
-.nav>li {
+.homenav>li {
     float: left;
 }
-.nav>li>a{
+.homenav>li>a{
     height: 20px;
     width: 100px;
     line-height: 20px;
     font-size: 15px;
     font-weight:bold;
-    text-align: left;
+    text-align:left;
     color: #000;
-    background-color: #fff;
-    z-index: 0;
-}
-.nav>li>a:hover {
-    background-color: #30a3f3;
+    cursor: pointer;
 }
 .logo {
     float: left;
-    height: 100px;
-    width: 350px;
+    height: 200px;
+    width: 500px;
+
+
 }
 
 .logo img {
     float: left;
-    height: 42px;
-    width: 230px;
+    height: 100px;
+    width: 300px;
     margin-top: 30px;
-    margin-left: 25px;
+    margin-left: 20%;
 }
 
 .menu {
@@ -74,6 +72,7 @@ header {
     height: 50px;
     width: 1000px;
     z-index: 1;
+    
 }
 
 .navi {
@@ -97,9 +96,6 @@ header {
     color: #000;
 }
 
-.navi>li>a:hover {
-    background-color: #30a3f3;
-}
 
 .navi>li:hover .submenu{
     opacity: 1;
@@ -118,8 +114,8 @@ header {
     font-size: 14px;
     font-weight: bold;
     text-align: center;
-    background-color: #ababab;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
 }
 
 .submenu>li>a:hover {
@@ -283,10 +279,9 @@ ul.imgs li{
 footer {
     height: 100px;
     width: 1500px;
-    background-color: #30a3f3;
 }
 .site {
-    float: right;
+    float: left;
     height: 100px;
     width: 600px;
 }
