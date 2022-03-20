@@ -1,0 +1,204 @@
+@charset "utf-8";
+* {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    font-family: "맑은 고딕";
+    color: #333;
+}
+
+body {
+    width: 1200px;
+    font-size: 20px;
+    height: 700px;
+    background-color: azure;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+header {
+    height: 200px;
+    width: 1000px;
+}
+.top {
+    height: 200px;
+    width: 1000px;
+}
+.home {
+    float: right;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.home>li {
+    float: left;
+    margin-right: 50px;
+}
+.home>li>a{
+    margin-top: 10px;
+    float: center;
+    text-align: center;
+    word-spacing: 10px;
+}
+.logo {
+    float: left;
+    height: 100px;
+    width: 500px;
+}
+
+.logo img {
+    float: left;
+    height: 80px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 10%;
+}
+
+.menu {
+    float: right;
+    height: 100px;
+    width: 1000px;
+    z-index: 1;
+    
+}
+
+.nav {
+    float: right;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+
+.nav>li {
+    float: left; 
+}
+
+.nav>li>a {
+    height: 40px;
+    width: 120px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight:bold;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+}
+
+
+.nav>li:hover .submenu{
+    opacity: 1;
+    display: inline;
+}
+.submenu {
+    width: 120px;
+    position: absolute;
+    display: none;
+    z-index: 1;
+}
+
+.submenu>li>a {
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+}
+
+.submenu>li>a:hover {
+    background-color: #30a3f3;
+}
+
+.login {
+    width: 800px;
+    height: 1000px;
+    background-color: white;
+    border: 3px solid black;
+}
+.login>h1{
+    margin-top: 50px;
+    text-align: center;
+}
+form {
+    width: 300px;
+    text-align: center;
+}
+button {
+    width: 100px;
+    margin: 20px;
+}
+.login h1{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    width: 300px;
+    background-color: darkblue;
+    color: white;
+}
+#userId {
+    margin-top: 20px;
+    margin-left: 19px;
+}
+
+.memberLink {
+    text-align: center;
+}
+.join {
+    margin-top: 10px;
+    border: 1px solid black;
+    width: 250px;
+    background-color: darkblue;
+    color: white;
+}
+.find {
+    margin-top: 10px;
+    border: 1px solid black;
+    width: 250px;
+    background-color: darkblue;
+    color: white;
+}
+footer {
+    text-align: center;
+    clear: both;
+    height: 200px;
+    width: 1200px;
+    position: absolute;
+}
+.site {
+    float: left;
+    height: 100px;
+    width: 500px;
+}
+
+.btmenu {
+    height: 50px;
+    width: 500px;
+    text-align:center;   
+    font-size:18px;      
+	line-height:30px;  
+}
+
+.btmenu li{
+    margin-top:10px;
+    display:inline-block;
+    width:100px;
+}
+
+.btmenu li:hover{
+    font-weight:bold;
+}
+.bt{
+    height: 50px;
+    width: 500px;
+    text-align: center;
+    font-size: 9px;
+    line-height:10px;
+}
+.copy {
+    height: 50px;
+    width: 500px;
+    text-align:center;
+	font-size:16px;     
+	line-height:50px;   
+}

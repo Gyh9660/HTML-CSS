@@ -6,11 +6,12 @@
     font-family: "맑은 고딕";
     color: #333;
 }
-
 body {
-    width: 1500px;
-    background-color: white;
+    width: 1200px;
+    background-color: azure;
     font-size: 20px;
+    height: 2000px;
+    border-top:5px solid #30a3f3;
 }
 
 a {
@@ -20,72 +21,66 @@ a {
 
 header {
     height: 200px;
-    width: 1500px;
-}
+    width: 1200px;
 
+}
+.block{
+    height: 50px;
+    width: auto;
+    background-color: #30a3f3
+}
 .top {
     height: 200px;
-    width: 1500px;
+    width: 1200px;
+}
+.home {
+    float: right;
+    font-size: 10px;
+    font-weight: bold;
 }
 
-.home{
-    float: right;
-    height: 10px;
-    width: 1000px;
-}
-.homenav{
-    float: right;
-    margin-top: 10px;
-    margin-right: 10px;
-}
-.homenav>li {
+.home>li {
     float: left;
+    margin-right: 50px;
 }
-.homenav>li>a{
-    height: 20px;
-    width: 100px;
-    line-height: 20px;
-    font-size: 15px;
-    font-weight:bold;
-    text-align:left;
-    color: #000;
-    cursor: pointer;
+.home>li>a{
+    margin-top: 10px;
+    float: center;
+    text-align: center;
+    word-spacing: 10px;
 }
 .logo {
     float: left;
-    height: 200px;
+    height: 100px;
     width: 500px;
-
-
 }
 
 .logo img {
     float: left;
-    height: 100px;
+    height: 80px;
     width: 300px;
-    margin-top: 30px;
-    margin-left: 20%;
+    margin-top: 10px;
 }
 
 .menu {
     float: right;
-    height: 50px;
-    width: 1000px;
+    height: 150px;
+    width: 1200px;
     z-index: 1;
     
 }
 
-.navi {
+.nav {
     float: right;
-    margin-top: 70px;
+    margin-top: 0px;
     margin-right: 10px;
 }
 
-.navi>li {
+.nav>li {
     float: left; 
 }
 
-.navi>li>a {
+.nav>li>a {
     height: 40px;
     width: 180px;
     line-height: 40px;
@@ -97,7 +92,7 @@ header {
 }
 
 
-.navi>li:hover .submenu{
+.nav>li:hover .submenu{
     opacity: 1;
     display: inline;
 }
@@ -121,19 +116,25 @@ header {
 .submenu>li>a:hover {
     background-color: #30a3f3;
 }
+section {
+    height: 2000px;
+    width: 1200px;
+}
 .bodywrap {
-    height: 1100px;
-    width: 1500px;
+    height: 2000px;
+    width: 1200px;
 }
 
 .slider {
     height: 700px;
-    width: 1400px;
-    position: relative; /*이미지 슬라이드 영역 제한*/
-    overflow: hidden; /*영역 밖으로 보이지 않도록 제한*/
-    margin: 50px;
+    width: 1200px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 0px;
+    margin-right: 0px;
     z-index: 0;
 }
+
 .slider input[type=radio]{
     display: none;
 }
@@ -146,10 +147,10 @@ ul.imgs{
 ul.imgs li{
     position: absolute;
     transition-delay: 1s;
-
     padding: 0;
     margin: 0;
 }
+
 .bullets{
     position: absolute;
     left: 52%;
@@ -204,91 +205,243 @@ ul.imgs li{
 }
 
 .contents {
+    margin-top: 250px;
     float: left;
-    height: 400px;
-    width: 1500px;
-    position: absolute;
+    height: 800px;
+    width: 1200px;
+    position: relative;
 }
 .otherwrap {
-    float: right;
-    height: 350px;
-    width: 1500px;
+    clear: both;
+    height: 400px;
+    width: 1200px;
 }
 .bannername{
     float: left;
-    margin-left: 50%;
     font-size: 25px;
     font-weight: bold;
     height: 100px;
-    width: 1500px;
-
+    width: 1200px;
 }
+.bannername>h3{
+    text-align: center;
+    margin-top: 20px;
+}
+
 .banner {
     float: left;
     height: 300px;
-    width: 450px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 50px;
+    width: 400px;
+    margin: auto;
 }
 
 .banner2 {
     float: left;
     height: 300px;
-    width: 450px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 50px;
+    width: 400px;
+    margin: auto;
 }
 .banner3 {
-    float: right;
+    float: left;
     height: 300px;
-    width: 450px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    width: 400px;
+    margin: auto;
 }
 .banner img {
+    margin-left: 70px;
     float: left;
     height: 200px;
-    width: 395px;
+    width: 250px;
 }
 
 .banner img:hover {
     opacity: 0.5;
 }
 
+.banner pre {
+    text-align: left;
+    float: left;
+    width: 400px;
+    font-size: 15px;
+}
+.banner pre h4 {
+    text-align: left;
+    width: 260px;
+    
+}
+.banner pre a:hover{
+    opacity: 0.5;
+}
 .banner2 img {
+    margin-left: 70px;
     float: left;
     height: 200px;
-    width: 395px;
+    width: 250px;
 }
 
 .banner2 img:hover {
     opacity: 0.5;
 }
+.banner2 pre {
+    text-align: left;
+    float: left;
+    width: 400px;
+    font-size: 15px;
+}
+.banner2 pre h4 {
+    text-align: left;
+    width: 260px;
+}
+.banner2 pre a:hover{
+    opacity: 0.5;
+}
 .banner3 img {
+    margin-left: 70px;
     float: left;
     height: 200px;
-    width: 395px;
+    width: 250px;
 }
 
 .banner3 img:hover {
     opacity: 0.5;
 }
-
-footer {
+.banner3 pre {
+    text-align: left;
+    float: left;
+    width: 400px;
+    font-size: 15px;
+}
+.banner3 pre h4 {
+    text-align: left;
+    width: 260px;
+}
+.banner3 pre a:hover{
+    opacity: 0.5;
+}
+.otherwrap2{
+    margin-top: 100px;
+    float: right;
+    width: 1200px;
+    height: 400px;
+}
+.twobannername{
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
     height: 100px;
-    width: 1500px;
+    width: 1200px;
+}
+.twobannername>h3{
+    text-align: center;
+    margin-top: 20px;
+}
+.sbanner{
+    float: left;
+    height: 300px;
+    width: 400px;
+    margin: auto;
+}
+.sbanner2{
+    float: left;
+    height: 300px;
+    width: 400px;
+    margin: auto;
+}
+.sbanner3{
+    float: left;
+    height: 300px;
+    width: 400px;
+    margin: auto;
+}
+.sbanner img {
+    margin-left: 70px;
+    float: left;
+    height: 200px;
+    width: 250px;
+}
+
+.sbanner img:hover {
+    opacity: 0.5;
+}
+.sbanner pre {
+    text-align: left;
+    float: left;
+    width: 400px;
+    font-size: 15px;
+}
+.sbanner pre h4 {
+    text-align: left;
+    width: 260px;
+    
+}
+.sbanner pre a:hover{
+    opacity: 0.5;
+}
+
+.sbanner2 img {
+    margin-left: 70px;
+    float: left;
+    height: 200px;
+    width: 250px;
+}
+
+.sbanner2 img:hover {
+    opacity: 0.5;
+}
+.sbanner2 pre {
+    text-align: left;
+    float: left;
+    width: 400px;
+    font-size: 15px;
+}
+.sbanner2 pre h4 {
+    text-align: left;
+    width: 260px;
+    
+}
+.sbanner2 pre a:hover{
+    opacity: 0.5;
+}
+.sbanner3 img {
+    margin-left: 70px;
+    float: left;
+    height: 200px;
+    width: 250px;
+}
+
+.sbanner3 img:hover {
+    opacity: 0.5;
+}
+.sbanner3 pre {
+    text-align: left;
+    float: left;
+    width: 400px;
+    font-size: 15px;
+}
+.sbanner3 pre h4 {
+    text-align: left;
+    width: 260px;
+    
+}
+.sbanner3 pre a:hover{
+    opacity: 0.5;
+}
+footer {
+    clear: both;
+    height: 200px;
+    width: 1200px;
+    position: absolute;
 }
 .site {
     float: left;
-    height: 100px;
-    width: 600px;
+    height: 150px;
+    width: 1200px;
 }
 
 .btmenu {
-    height: 50px;
-    width: 600px;
+    float:right;
+    height: 150px;
+    width: 400px;
     text-align:center;   
     font-size:18px;      
 	line-height:30px;  
@@ -297,23 +450,35 @@ footer {
 .btmenu li{
     margin-top:10px;
     display:inline-block;
-    width:100px;
+    width:200px;
+    border: 1px black solid;
 }
 
 .btmenu li:hover{
     font-weight:bold;
 }
 .bt{
-    height: 50px;
-    width: 600px;
-    text-align: center;
-    font-size: 9px;
-    line-height:10px;
+    height: 150px;
+    width: 400px;
+    font-size: 15px;
+    line-height:15px;
+}
+.logo2 {
+    float:left;
+    height: 80px;
+    width: 300px;
+}
+.logo2 img {
+    float: left;
+    height: 80px;
+    width: 300px;
+    margin-top: 10px;
 }
 .copy {
+    float: left;
     height: 50px;
-    width: 600px;
-    text-align:center;
+    width: 1200px;
+    text-align:left;
 	font-size:16px;     
-	line-height:50px;   
 }
+
