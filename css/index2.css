@@ -12,6 +12,7 @@ body {
     font-size: 20px;
     height: 700px;
     background-color: azure;
+    border-top:5px solid #30a3f3;
 }
 
 a {
@@ -21,6 +22,11 @@ a {
 header {
     height: 200px;
     width: 1000px;
+}
+.block{
+    height: 50px;
+    width: auto;
+    background-color: #30a3f3
 }
 .top {
     height: 200px;
@@ -112,8 +118,9 @@ header {
 }
 
 .login {
+    margin-top: 100px;
     width: 800px;
-    height: 1000px;
+    height: 800px;
     background-color: white;
     border: 3px solid black;
 }
@@ -159,7 +166,7 @@ button {
     color: white;
 }
 footer {
-    text-align: center;
+    margin-top: 100px;
     clear: both;
     height: 200px;
     width: 1200px;
@@ -167,13 +174,14 @@ footer {
 }
 .site {
     float: left;
-    height: 100px;
-    width: 500px;
+    height: 150px;
+    width: 1200px;
 }
 
 .btmenu {
-    height: 50px;
-    width: 500px;
+    float:right;
+    height: 150px;
+    width: 400px;
     text-align:center;   
     font-size:18px;      
 	line-height:30px;  
@@ -182,23 +190,34 @@ footer {
 .btmenu li{
     margin-top:10px;
     display:inline-block;
-    width:100px;
+    width:200px;
+    border: 1px black solid;
 }
 
 .btmenu li:hover{
     font-weight:bold;
 }
 .bt{
-    height: 50px;
-    width: 500px;
-    text-align: center;
-    font-size: 9px;
-    line-height:10px;
+    height: 150px;
+    width: 400px;
+    font-size: 15px;
+    line-height:15px;
+}
+.logo2 {
+    float:left;
+    height: 80px;
+    width: 300px;
+}
+.logo2 img {
+    float: left;
+    height: 80px;
+    width: 300px;
+    margin-top: 10px;
 }
 .copy {
+    float: left;
     height: 50px;
-    width: 500px;
-    text-align:center;
+    width: 1200px;
+    text-align:left;
 	font-size:16px;     
-	line-height:50px;   
 }
