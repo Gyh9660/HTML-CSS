@@ -8,9 +8,9 @@
 }
 
 body {
-    width: 1200px;
-    font-size: 20px;
-    height: 700px;
+    width: 1600px;
+    font-size: 26px;
+    height: 1000px;
     background-color: azure;
 }
 
@@ -19,21 +19,21 @@ a {
     display: block;
 }
 header {
-    height: 200px;
-    width: 1000px;
+    height: 266px;
+    width: 1600px;
 }
 .block{
-    height: 50px;
+    height: 66px;
     width: auto;
     background-color: #30a3f3
 }
 .top {
-    height: 200px;
-    width: 1000px;
+    height: 266px;
+    width: 1600px;
 }
 .home {
     float: right;
-    font-size: 10px;
+    font-size: 13px;
     font-weight: bold;
 }
 
@@ -49,22 +49,22 @@ header {
 }
 .logo {
     float: left;
-    height: 100px;
-    width: 500px;
+    height: 133px;
+    width: 660px;
 }
 
 .logo img {
     float: left;
-    height: 80px;
-    width: 300px;
+    height: 105px;
+    width: 400px;
     margin-top: 10px;
     margin-left: 10%;
 }
 
 .menu {
     float: right;
-    height: 100px;
-    width: 1000px;
+    height: 130px;
+    width: 1300px;
     z-index: 1;
     
 }
@@ -80,10 +80,10 @@ header {
 }
 
 .nav>li>a {
-    height: 40px;
-    width: 120px;
+    height: 53px;
+    width: 160px;
     line-height: 40px;
-    font-size: 16px;
+    font-size: 21px;
     font-weight:bold;
     text-align: center;
     background-color: #fff;
@@ -96,16 +96,16 @@ header {
     display: inline;
 }
 .submenu {
-    width: 120px;
+    width: 160px;
     position: absolute;
     display: none;
     z-index: 1;
 }
 
 .submenu>li>a {
-    height: 35px;
-    line-height: 35px;
-    font-size: 14px;
+    height: 47px;
+    line-height: 47px;
+    font-size: 18px;
     font-weight: bold;
     text-align: center;
     background-color: #fff;
@@ -118,8 +118,8 @@ header {
 
 .login {
     margin-top: 100px;
-    width: 800px;
-    height: 800px;
+    width: 1050px;
+    height: 1050px;
     background-color: white;
     border: 3px solid black;
 }
@@ -128,68 +128,162 @@ header {
     text-align: center;
 }
 form {
-    width: 300px;
+    width: 400px;
     text-align: center;
 }
 button {
-    width: 100px;
+    width: 130px;
     margin: 20px;
 }
 .login h1{
     margin-top: 150px;
     margin-bottom: 50px;
-    width: 300px;
+    width: 400px;
     background-color: darkblue;
     color: white;
 }
 #userId {
     margin-top: 20px;
-    margin-left: 19px;
+    margin-bottom: 20px;
 }
-
+#userPw{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form2{
+    display: block;
+    width: 266px;
+    height: 45px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+         -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+            transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.form2:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+            box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+  }
+  .btn{
+    color: #fff;
+    background-color: darkblue;
+    border-color: darkblue;
+    width: 266px;
+    height: 66px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #fff;
+    background-color: blue;
+    border-color: blue;
+}
 .memberLink {
     text-align: center;
 }
 .join {
     margin-top: 10px;
     border: 1px solid black;
-    width: 250px;
+    width: 340px;
     background-color: darkblue;
     color: white;
+}
+.join:hover{
+    color: white;
+    background-color: blue;
+    border-color: blue;
 }
 .find {
     margin-top: 10px;
     border: 1px solid black;
-    width: 250px;
+    width: 340px;
     background-color: darkblue;
     color: white;
 }
+.find:hover{
+    color: white;
+    background-color: blue;
+    border-color: blue;
+}
+.fb {
+    margin-top: 10px;
+    border: 1px solid skyblue;
+    width: 340px;
+    height: 53px;
+    text-align: center;
+    line-height: 35px;
+    background-color: skyblue;
+    color: white;
+}
+.fb:hover{
+    color: white;
+    background-color: blue;
+    border-color: blue;
+}.gg {
+    margin-top: 10px;
+    border: 1px solid black;
+    width: 340px;
+    height: 53px;
+    text-align: center;
+    line-height: 35px;
+    background-color: white;
+    color: black;
+}
+.gg:hover{
+    color: white;
+    background-color: blue;
+    border-color: blue;
+}
+.ka{
+    margin-top: 10px;
+}
+.ka img{
+    width: 340px;
+    height: 53px;
+}
+.na {
+    margin-top: 10px;
+}
+.na img {
+    width: 340px;
+    height: 53px;
+}
+
 footer {
     margin-top: 100px;
     clear: both;
-    height: 200px;
-    width: 1200px;
+    height: 266px;
+    width: 1600px;
     position: absolute;
 }
 .site {
     float: left;
-    height: 150px;
-    width: 1200px;
+    height: 200px;
+    width: 1600px;
 }
 
 .btmenu {
     float:right;
-    height: 150px;
-    width: 400px;
+    height: 200px;
+    width: 533px;
     text-align:center;   
-    font-size:18px;      
+    font-size:24px;      
 	line-height:30px;  
 }
 
 .btmenu li{
     margin-top:10px;
     display:inline-block;
-    width:200px;
+    width:266px;
     border: 1px black solid;
 }
 
@@ -197,26 +291,26 @@ footer {
     font-weight:bold;
 }
 .bt{
-    height: 150px;
-    width: 400px;
-    font-size: 15px;
+    height: 200px;
+    width: 533px;
+    font-size: 20px;
     line-height:15px;
 }
 .logo2 {
     float:left;
-    height: 80px;
-    width: 300px;
+    height: 106px;
+    width: 400px;
 }
 .logo2 img {
     float: left;
-    height: 80px;
-    width: 300px;
+    height: 106px;
+    width: 400px;
     margin-top: 10px;
 }
 .copy {
     float: left;
-    height: 50px;
-    width: 1200px;
+    height: 66px;
+    width: 1600px;
     text-align:left;
-	font-size:16px;     
+	font-size:21px;     
 }
