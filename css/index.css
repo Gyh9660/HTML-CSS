@@ -34,7 +34,7 @@ header {
 }
 .home {
     float: right;
-    font-size: 10px;
+    font-size: 13px;
     font-weight: bold;
 }
 
@@ -66,13 +66,14 @@ header {
     height: 150px;
     width: 1200px;
     z-index: 1;
-    
 }
 
 .nav {
+    background-color: #fff;
+    width: 100%;
     float: right;
-    margin-top: 0px;
-    margin-right: 10px;
+    position:sticky;
+    top:0;
 }
 
 .nav>li {
@@ -81,7 +82,7 @@ header {
 
 .nav>li>a {
     height: 40px;
-    width: 180px;
+    width: 200px;
     line-height: 40px;
     font-size: 16px;
     font-weight:bold;
@@ -96,7 +97,8 @@ header {
     display: inline;
 }
 .submenu {
-    width: 180px;
+    border-top: solid 1px blue;
+    width: 200px;
     position: absolute;
     display: none;
     z-index: 1;
@@ -113,7 +115,7 @@ header {
 }
 
 .submenu>li>a:hover {
-    background-color: #30a3f3;
+    background-color: skyblue;
 }
 section {
     height: 2000px;
@@ -161,8 +163,8 @@ ul.imgs li{
     display: inline-block;
     border-radius: 50%;
     background-color: rgba(0,0,0,0.55);
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
 }
 

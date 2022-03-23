@@ -8,8 +8,8 @@
 }
 
 body {
-    width: 1600px;
-    font-size: 26px;
+    width: 1200px;
+    font-size: 20px;
     height: 1000px;
     background-color: azure;
 }
@@ -19,17 +19,17 @@ a {
     display: block;
 }
 header {
-    height: 266px;
-    width: 1600px;
+    height: 200px;
+    width: 1200px;
 }
 .block{
-    height: 66px;
+    height: 50px;
     width: auto;
     background-color: #30a3f3
 }
 .top {
-    height: 266px;
-    width: 1600px;
+    height: 200px;
+    width: 1200px;
 }
 .home {
     float: right;
@@ -49,30 +49,31 @@ header {
 }
 .logo {
     float: left;
-    height: 133px;
-    width: 660px;
+    height: 100px;
+    width: 500px;
 }
 
 .logo img {
     float: left;
-    height: 105px;
-    width: 400px;
+    height: 80px;
+    width: 300px;
     margin-top: 10px;
-    margin-left: 10%;
 }
 
 .menu {
     float: right;
-    height: 130px;
-    width: 1300px;
+    height: 150px;
+    width: 1200px;
     z-index: 1;
     
 }
 
 .nav {
+    background-color: #fff;
+    width: 100%;
     float: right;
-    margin-top: 0px;
-    margin-right: 10px;
+    position:sticky;
+    top:0;
 }
 
 .nav>li {
@@ -80,10 +81,10 @@ header {
 }
 
 .nav>li>a {
-    height: 53px;
-    width: 160px;
+    height: 40px;
+    width: 200px;
     line-height: 40px;
-    font-size: 21px;
+    font-size: 16px;
     font-weight:bold;
     text-align: center;
     background-color: #fff;
@@ -96,16 +97,17 @@ header {
     display: inline;
 }
 .submenu {
-    width: 160px;
+    border-top: solid 1px blue;
+    width: 200px;
     position: absolute;
     display: none;
     z-index: 1;
 }
 
 .submenu>li>a {
-    height: 47px;
-    line-height: 47px;
-    font-size: 18px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
     font-weight: bold;
     text-align: center;
     background-color: #fff;
@@ -113,7 +115,7 @@ header {
 }
 
 .submenu>li>a:hover {
-    background-color: #30a3f3;
+    background-color: skyblue;
 }
 
 .login {
@@ -181,6 +183,8 @@ button {
     width: 266px;
     height: 66px;
     cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
 }
 .btn:hover{
     color: #fff;
@@ -220,28 +224,24 @@ button {
     width: 340px;
     height: 53px;
     text-align: center;
-    line-height: 35px;
+    line-height: 50px;
     background-color: skyblue;
     color: white;
 }
 .fb:hover{
-    color: white;
-    background-color: blue;
-    border-color: blue;
+    opacity: 0.5;
 }.gg {
     margin-top: 10px;
     border: 1px solid black;
     width: 340px;
     height: 53px;
     text-align: center;
-    line-height: 35px;
+    line-height: 50px;
     background-color: white;
     color: black;
 }
 .gg:hover{
-    color: white;
-    background-color: blue;
-    border-color: blue;
+    opacity: 0.5;
 }
 .ka{
     margin-top: 10px;
@@ -250,6 +250,9 @@ button {
     width: 340px;
     height: 53px;
 }
+.ka:hover{
+    opacity: 0.5;
+}
 .na {
     margin-top: 10px;
 }
@@ -257,33 +260,35 @@ button {
     width: 340px;
     height: 53px;
 }
-
+.na:hover{
+    opacity: 0.5;
+}
 footer {
     margin-top: 100px;
     clear: both;
-    height: 266px;
-    width: 1600px;
+    height: 200px;
+    width: 1200px;
     position: absolute;
 }
 .site {
     float: left;
-    height: 200px;
-    width: 1600px;
+    height: 150px;
+    width: 1200px;
 }
 
 .btmenu {
     float:right;
-    height: 200px;
-    width: 533px;
+    height: 150px;
+    width: 400px;
     text-align:center;   
-    font-size:24px;      
+    font-size:18px;      
 	line-height:30px;  
 }
 
 .btmenu li{
     margin-top:10px;
     display:inline-block;
-    width:266px;
+    width:200px;
     border: 1px black solid;
 }
 
@@ -291,26 +296,26 @@ footer {
     font-weight:bold;
 }
 .bt{
-    height: 200px;
-    width: 533px;
-    font-size: 20px;
+    height: 150px;
+    width: 400px;
+    font-size: 15px;
     line-height:15px;
 }
 .logo2 {
     float:left;
-    height: 106px;
-    width: 400px;
+    height: 80px;
+    width: 300px;
 }
 .logo2 img {
     float: left;
-    height: 106px;
-    width: 400px;
+    height: 80px;
+    width: 300px;
     margin-top: 10px;
 }
 .copy {
     float: left;
-    height: 66px;
-    width: 1600px;
+    height: 50px;
+    width: 1200px;
     text-align:left;
-	font-size:21px;     
+	font-size:16px;     
 }
