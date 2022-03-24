@@ -67,7 +67,6 @@ header {
     z-index: 1;
     
 }
-
 .nav {
     background-color: #fff;
     width: 100%;
@@ -117,18 +116,153 @@ header {
 .submenu>li>a:hover {
     background-color: skyblue;
 }
+section {
+    margin-top: 100px;
+    width: 1200px;
+    height: 3600px;
+}
 
+.switch {
+    float: right;
+    height: 200px;
+    width: 1200px;
+}
+.switch h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+.sw {
+    margin-top: 50px;
+    background-color: #fff;
+    width: 100%;
+    float: right;
 
+}
 
+.sw>li {
+    float: left; 
+}
 
+.sw>li>a {
+    height: 40px;
+    width: 200px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight:bold;
+    text-align: center;
+    color: #000;
+}
+.sw>li>a:hover{
+    opacity: 0.5;
+}
+.sw>li>a:focus{
+    font-size: 18px;
+    opacity: 1.0;
+    text-decoration: underline;
+}
+.contents {
+    float: left;
+    height: 800px;
+    width: 1200px;
+    position: relative;
+}
+.otherwrap {
+    clear: both;
+    height: 400px;
+    width: 1200px;
+}
+.sale {
+    float: left;
+    height: 300px;
+    width: 400px;
+    margin: auto;
+}
 
+.sale img {
+    margin-left: 70px;
+    float: left;
+    height: 200px;
+    width: 250px;
+}
 
+.sale img:hover {
+    opacity: 0.5;
+}
 
+.sale pre {
+    text-align: left;
+    float: left;
+    width: 400px;
+    font-size: 15px;
+}
+.sale pre h4 {
+    text-align: left;
+    width: 260px;
+    
+}
+.sale pre a:hover{
+    opacity: 0.5;
+}
 
+.page{
+    text-align: center;
+    width: 50%;
+}
+.pg{
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin-top: 20px;
+}
+.pg li{
+    display: inline;
+    text-align: center;
+}
+.pg a{
+    float: left;
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 5px 12px;
+    color: #000;
+    line-height: 1.5;
+    font-weight: bold;
+}
 
+.first{
+    margin-right: 15px;
+}
+.last{
+    margin-left: 15px;
+}
+.first:hover, .last:hover, .left:hover, .right:hover{
+    color: #2e9cdf;
+}
 
+.pg a:active{
+    outline: none;
+}
+.pg .num{
+    margin-left: 3px;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 100%;
+}
+.pg .num:hover{
+    background-color: #2e9cdf;
+    color: #fff;
+}
 
-
+.arrow-left{
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid blue;
+}
 footer {
     margin-top: 100px;
     clear: both;
@@ -184,4 +318,16 @@ footer {
     width: 1200px;
     text-align:left;
 	font-size:16px;     
+}
+#tothetop { 
+    position: fixed;
+    bottom: 5rem; 
+    right: 1rem; 
+    cursor: pointer;
+}
+#tothebottom { 
+    position: fixed;
+    bottom: 1rem; 
+    right: 1rem; 
+    cursor: pointer;
 }

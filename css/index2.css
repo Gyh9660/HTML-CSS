@@ -72,8 +72,6 @@ header {
     background-color: #fff;
     width: 100%;
     float: right;
-    position:sticky;
-    top:0;
 }
 
 .nav>li {
@@ -318,4 +316,16 @@ footer {
     width: 1200px;
     text-align:left;
 	font-size:16px;     
+}
+#tothetop { 
+    position: fixed;
+    bottom: 5rem; 
+    right: 1rem; 
+    cursor: pointer;
+}
+#tothebottom { 
+    position: fixed;
+    bottom: 1rem; 
+    right: 1rem; 
+    cursor: pointer;
 }
