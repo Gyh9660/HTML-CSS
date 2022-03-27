@@ -275,3 +275,7 @@ bottom: 1rem;
 right: 1rem; 
 cursor: pointer;
 }
+
+.test{
+    float: right;
+}
