@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/sign2.css'>
+</head>
+<body>
+    <header>
+        <div class="top">
+            <div class="home">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">장바구니</a></li>
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">마이페이지</a></li>
+            </div>
+            <div class="logo"><a href="index.html"><img src="img/logo1.jpg" alt="로고"></a></div>
+            <nav class="menu">
+                <nav class="menu">
+                    <ul class="nav">
+                        <li><a href="#">BEST</a>
+                        </li>
+                        <li><a href="#">EVENT</a>
+                            <ul class="submenu">
+                                <li><a href="#">SALE</a></li>
+                                <li><a href="#">EVENT</a></li>
+                                <li><a href="#">예약구매</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="sub.html">Switch</a>
+                            <ul class="submenu">
+                                <li><a href="sub.html">하드웨어</a></li>
+                                <li><a href="sub.html">소프트웨어</a></li>
+                                <li><a href="sub.html">주변기기</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">3DS</a>
+                            <ul class="submenu">
+                                <li><a href="#">하드웨어</a></li>
+                                <li><a href="#">소프트웨어</a></li>
+                                <li><a href="#">주변기기</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">액세서리</a>
+                            <ul class="submenu">
+                                <li><a href="#">Switch</a></li>
+                                <li><a href="#">3DS</a></li>
+                                <li><a href="#">굿즈</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Community</a>
+                            <ul class="submenu">
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">1대1문의</a></li>
+                                <li><a href="#">상품후기</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+    <section>
+        <form method="post" action="">
+            <div class="container">
+            <div class="insert">
+                <table>
+                    <caption><h2>회원가입</h2></caption>
+                    <tr>
+                        <th class="col1">이름</th>
+                        <td class="col2"><input type="text" name="name" maxlength="5"></td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <th class="col1">아이디</th>
+                        <td class="col2">
+                            <input type="text" name="id" maxlength="10">
+                            <input class='but1' type="button" value="중복확인" onclick="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="col1">비밀번호</th>
+                        <td class="col2">
+                            <input type="password" name="pwd" maxlength="16">
+                            <p>※비밀번호는 <span class="num">문자, 숫자, 특수문자의 조합10 ~ 16자리</span>로 입력이 가능합니다.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="col1">비밀번호 확인</th><br>
+                        <td class="col2"><input type="password" name="pwdCheck" maxlength="16"></td>
+                    </tr>
+                    <tr>
+                        <th class="col1">휴대전화</th>
+                        <td class="col2">
+                            <select name="phone">
+                                <option value="basic" selected>---</option>
+                                <option value="010">010</option>
+                                <option value="011">011</option>
+                                <option value="016">017</option>
+                                <option value="017">017</option>
+                            </select>
+                            <span class="a">-</span>
+                            <input type="text" name="phone2">
+                            <span class="a">-</span>
+                            <input type="text" name="phone3">
+                        </td>
+                    </tr><br>
+                    <br>
+                    <tr>
+                        <th class="col1">이메일</th>
+                        <br>
+                        <td class="col2">
+                            <input type="text" name="mailid">
+                            <span class="a">@</span>
+                            <input type="text" name="email">
+                            <select name="mailslc">
+                                <option value="self" selected>직접입력</option>
+                                <option value="naver">naver.com</option>
+                                <option value="gm">gmail.com</option>
+                                <option value="da">daum.com</option>
+                            </select>
+                            <input class='but2' type="button" value="이메일 중복확인" onclick="">
+                        </td>
+                    </tr><br>
+                    <tr>
+                        <th class="col1">주소</th>
+                        <td class="col2">
+                            <div>
+                                <input type="text" required>
+                                <input class="but3" type="button" value="우편번호"onclick=""></input>
+                            </div>
+                            <div>
+                                <input type="text" required>
+                                <span>기본주소</span>
+                            </div>
+                            <div>
+                                <input type="text">
+                                <span>나머지주소 (선택입력가능)</span>
+                            </div>   
+                        </td>
+                    </tr>
+                </table>
+        </div>
+        <br>
+        <div class="create">
+            <input class="but4" type="button" value="이전" onclick="">
+            <input class="but5" type="button" value="회원가입" onclick="formCheck(this.form)">
+        </div>
+        </div>
+        </form>
+    </section>
+    <footer>
+        <div class="site">
+            <div class="btmenu">
+                <ul>
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보 취급방침</a></li>
+                </ul>
+            </div>
+            <div class="logo2"><a href="#"><img src="img/logo1.jpg" alt="로고"></a></div>
+            <div class="bt"id="bottom">
+                <ul>
+                    <li>회사명 : KG SHOP</li>
+                    <br>
+                    <li>사업자등록 : 000-00-00000 | 대표자 : 권용희</li>
+                    <br>
+                    <li>주소 : 서울시 금천구 가산동</li>
+                    <br>
+                    <li>통신판매업 신고 : 제2000호 고객센터 : 0000-0000</li>
+                    <br>
+                    <li>메일 : aaa@naver.com</li>
+                </ul>
+            </div>
+            <div class="copy">COPYRIGHT © by WEBDESIGN. ALL RIGHTS RESERVED</div>
+        </div>
+    </footer>
+    <span id="tothetop"><a href="#" id="tothetop"><img src="img/angle_top_arrow_icon_123992.png" alt="top"></a></span>
+    <span id="tothebottom"><a href="#bottom" id="tothebottom"><img src="img/angle_top_arrow_icon_123992 - 복사본.png" alt="bottom"></a></span>
+</body>
+</html>
