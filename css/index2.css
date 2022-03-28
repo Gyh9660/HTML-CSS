@@ -22,7 +22,7 @@ header {
     height: 100px;
     width: 1200px;
     position: sticky;
-    top: 0%;
+    top: -11%;
     z-index: 99;
     background-color: azure;
 }
@@ -33,7 +33,7 @@ header {
     background-color: #30a3f3
 }
 .top {
-    height: 200px;
+    height: 100px;
     width: 1200px;
 }
 .home {
