@@ -122,7 +122,7 @@ header {
 section {
     margin-top: 100px;
     width: 1200px;
-    height: 3600px;
+    height:2000px;
 }
 
 .switch {
@@ -168,6 +168,19 @@ section {
     float: right;
     font-size: 8px;
     margin-top: 3px;
+}
+.b{
+    background-color: azure;
+    border: 0cm;
+}
+.b:hover{
+    opacity: 0.5;
+}
+.b:focus{
+        font-size: 13.5px;
+        opacity: 1.0;
+        font-weight: bold;
+        text-decoration: underline;
 }
 .contents {
     margin-top: 100px;
